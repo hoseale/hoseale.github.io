@@ -2,15 +2,15 @@ import type { Site, SocialObjects } from "./types";
 
 export const SITE: Site = {
   website: "https://hoseale.github.io/", // replace this with your deployed domain
-  author: "AHong",
-  desc: "A minimal, responsive and SEO-friendly Astro blog theme.",
-  title: "AHong",
-  ogImage: "astropaper-og.jpg",
+  author: "hosealee",
+  desc: "Anker is a front-end developer based in China. He is passionate about designing web applications and writing codes to solve real-life challenges",
+  title: "Anker",
+  ogImage: "",
   lightAndDarkMode: true,
   postPerPage: 3,
 };
 
-export const LOCALE = ["en-EN"]; // set to [] to use the environment default
+export const LOCALE = ["zh-CN"]; // set to [] to use the environment default
 
 export const LOGO_IMAGE = {
   enable: false,
@@ -22,7 +22,7 @@ export const LOGO_IMAGE = {
 export const SOCIALS: SocialObjects = [
   {
     name: "Github",
-    href: "https://github.com/satnaing/astro-paper",
+    href: "https://github.com/hoseale",
     linkTitle: ` ${SITE.title} on Github`,
     active: true,
   },
@@ -30,19 +30,19 @@ export const SOCIALS: SocialObjects = [
     name: "Facebook",
     href: "https://github.com/satnaing/astro-paper",
     linkTitle: `${SITE.title} on Facebook`,
-    active: true,
+    active: false,
   },
   {
     name: "Instagram",
     href: "https://github.com/satnaing/astro-paper",
     linkTitle: `${SITE.title} on Instagram`,
-    active: true,
+    active: false,
   },
   {
     name: "LinkedIn",
     href: "https://github.com/satnaing/astro-paper",
     linkTitle: `${SITE.title} on LinkedIn`,
-    active: true,
+    active: false,
   },
   {
     name: "Mail",
